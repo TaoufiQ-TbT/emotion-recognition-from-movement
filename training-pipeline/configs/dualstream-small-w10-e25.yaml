@@ -1,0 +1,14 @@
+model:
+  name: dualstream-small-w10-e25
+  d_model: 128 # lighter embeddings to ease optimisation
+  nhead: 4 # keep d_model divisible by nhead
+  num_layers: 2 # shallower encoders per stream
+  dim_feedforward_mult: 4 # moderate FFN size
+  dropout: 0.10 # mild dropout
+  max_len: 10
+
+training:
+  batch_size: 8
+  learning_rate: 1.0e-3 # slightly higher LR for the smaller model
+  weight_decay: 0.0 # no weight decay while debugging learning
+  num_epochs: 25

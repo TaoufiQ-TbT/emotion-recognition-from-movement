@@ -1,0 +1,10 @@
+# Dashboard: upload a video, get emotion predictions.
+# Supported Python: 3.10 - 3.12. Also needs FFmpeg on the PATH.
+dash==3.3.0
+Flask==3.1.2
+mediapipe==0.10.21
+# Same OpenCV build mediapipe depends on; never install opencv-python next to it.
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+pandas==2.3.3
+torch==2.9.1

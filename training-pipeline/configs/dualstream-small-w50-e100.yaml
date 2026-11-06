@@ -1,0 +1,14 @@
+model:
+  name: dualstream-small-w50-e100
+  d_model: 128
+  nhead: 4
+  num_layers: 2
+  dim_feedforward_mult: 4
+  dropout: 0.10
+  max_len: 50
+
+training:
+  batch_size: 256        # adjust down if OOM
+  learning_rate: 3.0e-4
+  weight_decay: 1.0e-2
+  num_epochs: 100

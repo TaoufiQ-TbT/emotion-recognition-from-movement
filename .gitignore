@@ -1,0 +1,81 @@
+# ============================================================
+# OS / editors
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+envdash/
+
+# Local environment variables
+.env
+
+# Local tooling (IDE / agent caches)
+.serena/
+
+# ============================================================
+# Private material: never published
+# ============================================================
+# Thesis report, presentation and blueprints
+docs/
+
+# Experiment results and training screenshots (kept locally)
+TM_results/
+training-pipeline/TM_results/
+
+# Personal working notebook
+training-pipeline/model_work_gesture.ipynb
+
+# Reference papers (publisher copyright), drafts and scratch files
+training-pipeline/article/
+training-pipeline/archive/
+training-pipeline/reports/
+training-pipeline/tmp/
+training-pipeline/other/
+
+# ============================================================
+# Data privacy: dance videos and everything extracted from them
+# ============================================================
+training-pipeline/assets/*
+!training-pipeline/assets/.gitkeep
+training-pipeline/data/
+training-pipeline/test/
+training-pipeline/outputs/
+dashboard/test/
+dashboard/uploads/
+dashboard/runs/
+
+# Safety net, wherever these files end up
+*.ts
+*.avi
+*.mp4
+*.mov
+*.mkv
+*_poses.json
+*_features.json
+frame_*.jpg
+Screenshot*.png
+
+# ============================================================
+# Trained models: learned from the training data, never versioned
+# ============================================================
+*.pt
+*.pth
+*.ckpt
+dashboard/models/*
+!dashboard/models/.gitkeep

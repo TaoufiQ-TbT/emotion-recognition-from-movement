@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="795" height="66" viewBox="0 0 795 66" role="img" aria-label="Emotion Recognition from Movement">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="795" y2="0">
+      <stop offset="0" stop-color="#6a68ee"/>
+      <stop offset="1" stop-color="#1a7ff0"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="49" textLength="795" lengthAdjust="spacingAndGlyphs" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="48" font-weight="600" fill="url(#g)">Emotion Recognition from Movement</text>
+</svg>

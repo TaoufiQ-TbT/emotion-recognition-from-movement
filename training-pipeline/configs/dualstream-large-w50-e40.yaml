@@ -1,0 +1,14 @@
+model:
+  name: dualstream-large-w50-e40
+  d_model: 256          # higher capacity for richer temporal patterns
+  nhead: 8              # d_model divisible by nhead
+  num_layers: 4         # deeper encoders per stream
+  dim_feedforward_mult: 4
+  dropout: 0.15
+  max_len: 50           # window length for this config
+
+training:
+  batch_size: 256       # H100-friendly; adjust down if OOM
+  learning_rate: 3.0e-4 # lower LR for the larger model
+  weight_decay: 1.0e-2  # regularization
+  num_epochs: 40

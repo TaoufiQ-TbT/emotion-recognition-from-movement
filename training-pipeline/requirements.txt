@@ -1,0 +1,11 @@
+# Training pipeline: preprocessing, pose estimation, LMA features, training and evaluation.
+# Supported Python: 3.10 - 3.12. Also needs FFmpeg on the PATH.
+mediapipe==0.10.21
+# Same OpenCV build mediapipe depends on; never install opencv-python next to it.
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.7
+PyYAML==6.0.3
+torch==2.9.1

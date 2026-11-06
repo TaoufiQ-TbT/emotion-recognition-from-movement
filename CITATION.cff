@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Emotion Recognition from Movement: a Dual-Stream Transformer on 3D Pose and Laban Movement Analysis"
+type: software
+authors:
+  - given-names: "Taoufiq"
+    family-names: "T'Boubchat"
+repository-code: "https://github.com/TaoufiQ-TbT/emotion-recognition-from-movement"
+license: MIT
+version: "1.0.0"
+abstract: >-
+  An end-to-end system that recognizes six basic emotions (anger, disgust, fear,
+  happiness, sadness, surprise) from monocular dance videos. A multi-pass
+  MediaPipe pipeline extracts 3D poses, Laban Movement Analysis features are
+  computed from them, and a dual-stream Transformer fuses both streams. Includes
+  the full training pipeline and a web dashboard.
+keywords:
+  - emotion recognition
+  - dance
+  - human pose estimation
+  - Laban Movement Analysis
+  - transformer
+  - MediaPipe
