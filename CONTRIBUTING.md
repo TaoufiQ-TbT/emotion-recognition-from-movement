@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in this project. Bug reports, questions and pull requests are welcome.
+Thanks for your interest in this project. Bug reports and questions are welcome. This repository does not accept pull requests, but you are free to fork it and change your own copy under the [MIT License](LICENSE).
 
 ## Reporting a bug or asking a question
 
@@ -55,18 +55,17 @@ Configs and models use one technical ID scheme:
 
 `size` is `small` (`d_model` 128, 2 layers, 4 heads) or `large` (`d_model` 256, 4 layers, 8 heads). `window` is the number of pose frames per window, and `stride` the window stride passed with `--window-stride` at training time.
 
-## Before opening a pull request
+## If you change the code in your copy
 
-1. Keep changes focused: one fix or feature per pull request.
-2. Match the style of the surrounding code (type hints, docstrings, `pathlib` paths).
-3. Run `python scripts/sync_dashboard.py --check`.
-4. Run what you changed. For training pipeline changes, process at least one video; for dashboard changes, upload a video and check the predictions appear.
-5. Update the relevant README when you change a command, an option or a default.
+1. Match the style of the surrounding code (type hints, docstrings, `pathlib` paths).
+2. Run `python scripts/sync_dashboard.py --check`.
+3. Run what you changed. For training pipeline changes, process at least one video; for dashboard changes, upload a video and check the predictions appear.
+4. Update the relevant README when you change a command, an option or a default.
 
 ## Data and privacy
 
-The `.gitignore` blocks videos, extracted poses and features, and trained model weights. Do not force-add them (`git add -f`). Pull requests that contain recordings of people will be closed.
+The `.gitignore` blocks videos, extracted poses and features, and trained model weights. Do not force-add them (`git add -f`), and never publish recordings of people without their explicit consent.
 
 ## License
 
-By contributing, you agree that your contributions are licensed under the [MIT License](LICENSE).
+The code is available under the [MIT License](LICENSE). If you share a modified copy, keep the copyright and license notice.

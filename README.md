@@ -168,7 +168,7 @@ If you use this code, please cite it. GitHub's **Cite this repository** button (
 
 ## Contributing
 
-Issues and pull requests are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Bug reports and questions are welcome as issues. This repository does not accept pull requests, but you are free to fork it and adapt your own copy. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## About
 
